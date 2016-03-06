@@ -1,0 +1,48 @@
+[ 2015-04-16T10:21:21+08:00 ] 127.0.0.1 /shop/index.php/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+ERR: 无法加载模块:Head
+
+[ 2015-04-16T10:21:21+08:00 ] 127.0.0.1 /shop/index.php/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+ERR: 无法加载模块:Left
+
+[ 2015-04-16T10:21:21+08:00 ] 127.0.0.1 /shop/index.php/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+ERR: 无法加载模块:Right
+
+[ 2015-04-16T10:21:35+08:00 ] 127.0.0.1 /shop/index.php/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+ERR: 无法加载模块:Head
+
+[ 2015-04-16T10:21:35+08:00 ] 127.0.0.1 /shop/index.php/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+ERR: 无法加载模块:Left
+
+[ 2015-04-16T10:21:35+08:00 ] 127.0.0.1 /shop/index.php/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+ERR: 无法加载模块:Right
+
+[ 2015-04-16T10:22:35+08:00 ] 127.0.0.1 /shop/index.php/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+ERR: 无法加载模块:Right
+
+[ 2015-04-16T10:22:35+08:00 ] 127.0.0.1 /shop/index.php/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+ERR: 无法加载模块:Left
+

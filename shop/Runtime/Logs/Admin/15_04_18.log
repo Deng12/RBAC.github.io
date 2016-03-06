@@ -1,0 +1,33 @@
+[ 2015-04-18T10:43:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+
+[ 2015-04-18T10:43:55+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+
+[ 2015-04-18T10:46:14+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+
+[ 2015-04-18T10:46:26+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+
+[ 2015-04-18T11:15:58+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/showlist
+ERR: 无法加载控制器:Role
+
+[ 2015-04-18T11:27:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/upd
+ERR: 非法操作:upd
+
+[ 2015-04-18T14:49:50+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/distribute
+ERR: 参数错误或者未定义:role_id
+
+[ 2015-04-18T15:09:16+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/distribute/role_id/100
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'auth_ids' in 'field list'
+
+[ 2015-04-18T15:42:32+08:00 ] 127.0.0.1 /shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2015-04-18T16:23:44+08:00 ] 127.0.0.1 /shop/index.php/Admin/Auth/tianjia
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'auth_path' doesn't have a default value
+
+[ 2015-04-18T18:02:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Manager/showlist
+ERR: 非法操作:showlist
+

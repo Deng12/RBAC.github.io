@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>给角色分配权限</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <link href="{$Think.const.ADMIN_CSS_URL}mine.css" type="text/css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="div_head">
+            <span>
+                <span style="float:left">当前位置是：角色管理-》分配权限信息【{$role_info['role_name']}】</span>
+                <span style="float:right;margin-right: 8px;font-weight: bold">
+                    <a style="text-decoration: none" href="__CONTROLLER__/showlist">【返回】</a>
+                </span>
+            </span>
+        </div>
+        <div></div>
+
+        <div style="font-size: 13px;margin: 10px 5px">
+            <form action='__SELF__' method='post'>
+                <table cellspacing='1' id="list-table">
+                    <volist name='auth_infoA' id='v'>
+                    <tr>
+                        <td width="25%" valign="top" class="first-cell" style='border-bottom:2px solid gray; font-weight:bold;'>
+                            <input type="checkbox" name="auth_id[]" value="{$v['auth_id']}" class="checkbox"
+                                   <if condition="in_array($v['auth_id'],$authidsarr)">checked='checked'</if>
+                                   />{$v['auth_name']}</td>
+                        <td width='75%' style='border-bottom:2px solid gray;'>
+                            <volist name='auth_infoB' id="vv">
+                            <if condition="$vv['auth_pid']  eq $v['auth_id']">
+                            <div style="width:200px;float:left;">
+                                <input type="checkbox" name="auth_id[]" value="{$vv['auth_id']}" 
+                                       <if condition="in_array($vv['auth_id'],$authidsarr)">checked='checked'</if>
+                                       />{$vv['auth_name']}
+                            </div>
+                            </if>
+                            </volist>
+                        </td>
+                    </tr>
+                    </volist>
+                </table>
+                <input type='submit' value='分配权限' />
+            </form>
+        </div>
+    </body>
+</html>
